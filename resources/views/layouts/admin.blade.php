@@ -101,7 +101,7 @@
 <body>
 
     <div class="sidebar">
-        <a href="{{ route('admin.dashboard') }}" class="sidebar-brand">NutriBase Admin</a>
+        <a href="{{ route('admin.dashboard') }}" class="sidebar-brand">Foodinfo Admin</a>
         <nav class="nav flex-column">
             <a class="nav-link {{ request()->routeIs('admin.dashboard') ? 'active' : '' }}" href="{{ route('admin.dashboard') }}">Dashboard</a>
             <a class="nav-link {{ request()->routeIs('admin.reports') || request()->routeIs('admin.audit-log') ? 'active' : '' }}" href="{{ route('admin.reports') }}">Reports</a>
